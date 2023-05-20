@@ -4,6 +4,7 @@
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
 body {
   width: 100%;
   height: auto;
@@ -14,6 +15,7 @@ body {
   gap: 20px;
   background-color: #f9f9f9;
 }
+
 header {
   display: flex;
   flex-direction: column;
@@ -22,6 +24,7 @@ header {
   height: auto;
   background-color: #9cff94;
 }
+
 .top-head {
   width: 1400px;
   height: auto;
@@ -32,22 +35,26 @@ header {
   align-items: center;
   color: #1f701d;
 }
+
 .top-head input {
   width: 400px;
   height: 40px;
   font-size: 24px;
   padding: 5px;
 }
+
 .top-head a {
   font-size: 36px;
   font-weight: 800;
 }
-.top-head > div {
+
+.top-head>div {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
+
 .down-head {
   width: 100%;
   height: auto;
@@ -58,9 +65,11 @@ header {
   font-size: 32px;
   font-weight: 700;
 }
+
 .head-navbar {
   width: 1400px;
 }
+
 .header-navbar {
   display: flex;
   flex-direction: row;
@@ -77,6 +86,7 @@ main {
   justify-content: center;
   gap: 20px;
 }
+
 section {
   width: 1400px;
   height: auto;
@@ -86,6 +96,7 @@ section {
   justify-content: center;
   gap: 30px;
 }
+
 .novinki {
   width: 100%;
   display: flex;
@@ -93,6 +104,7 @@ section {
   align-items: center;
   gap: 20px;
 }
+
 .stocks {
   width: 100%;
   display: flex;
@@ -100,6 +112,7 @@ section {
   align-items: center;
   gap: 20px;
 }
+
 .stocks-blocks {
   width: 100%;
   display: flex;
@@ -108,10 +121,11 @@ section {
   align-items: center;
   gap: 40px;
 }
+
 .line2 {
   width: 1400px;
   height: auto;
-  padding: 5px;
+  padding: 0px 10px 0px 10px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -121,6 +135,7 @@ section {
   color: white;
   background-color: #5daf42;
 }
+
 .stocks2 {
   width: 100%;
   display: flex;
@@ -128,6 +143,7 @@ section {
   align-items: center;
   gap: 20px;
 }
+
 .stocks-blocks2 {
   width: 100%;
   display: flex;
@@ -136,10 +152,11 @@ section {
   align-items: center;
   gap: 40px;
 }
+
 .line {
   width: 1400px;
   height: auto;
-  padding: 5px;
+  padding: 0px 10px 0px 10px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -149,10 +166,12 @@ section {
   color: white;
   background-color: #5daf42;
 }
+
 .line a {
   text-decoration: none;
   color: white;
 }
+
 .novinki-blocks {
   width: 100%;
   display: flex;
@@ -160,6 +179,7 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+
 .information {
   display: flex;
   flex-direction: column;
@@ -167,10 +187,12 @@ section {
   align-items: center;
   text-align: center;
 }
+
 .information h1 {
   font-size: 42px;
   font-weight: 600;
 }
+
 .information a {
   font-size: 32px;
 }
@@ -183,6 +205,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 .footer {
   width: 1400px;
   height: auto;
@@ -194,6 +217,7 @@ footer {
   align-items: center;
   gap: 10px;
 }
+
 .footer-section {
   width: 100%;
   display: flex;
@@ -205,26 +229,108 @@ footer {
   font-weight: 700;
   color: #b4ddb1;
 }
+
 .footer-section h2 {
   font-weight: 700;
 }
+
 .foot {
   width: 100%;
 }
+
 .foot-top {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .foot-top a {
   text-decoration: none;
   color: #b4ddb1;
 }
+
 .hr {
   width: 100%;
   height: 2px;
   background-color: #b4ddb1;
 }
+
 .copyright {
   color: #b4ddb1;
+}
+
+.card {
+  transition: ease-in-out 500ms;
+}
+
+.card:hover {
+  transform: scale(1.1, 1.1);
+  transition: ease-in-out 500ms;
+}
+
+.catalog-page {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.menu {
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.catalog-section {
+  width: 1120px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.card3 {
+  width: 16rem;
+  border: none;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+.card3 p {
+  font-size: 16px;
+  height: 80px;
+}
+
+.card-article {
+  width: 100%;
+}
+.card-article:hover {
+  transform: scale(1, 1);
+}
+
+.article-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card-title {
+  font-size: 32px;
+}
+.card-body a {
+  font-size: 18px;
+  background-color: #40903E;
+  color: white;
+}
+.card-body a:hover {
+  background-color: #256824;
+  color: white;
 }
