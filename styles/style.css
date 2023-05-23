@@ -105,7 +105,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .stocks {
@@ -113,9 +113,12 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
+.stocks p {
+  height: 60px;
+}
 .stocks-blocks {
   width: 100%;
   display: flex;
@@ -137,6 +140,7 @@ section {
   text-decoration: none;
   color: white;
   background-color: #5daf42;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
 }
 
 .stocks2 {
@@ -144,9 +148,11 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
-
+.stocks2 p {
+  height: 60px;
+}
 .stocks-blocks2 {
   width: 100%;
   display: flex;
@@ -168,6 +174,7 @@ section {
   text-decoration: none;
   color: white;
   background-color: #5daf42;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
 }
 
 .line a {
@@ -278,12 +285,13 @@ footer {
   transition: ease-in-out 500ms;
   padding: 10px;
 }
-
 .card:hover {
   transform: scale(1.1, 1.1);
   transition: ease-in-out 500ms;
 }
-
+.card img {
+  cursor: pointer;
+}
 .catalog-page {
   padding-top: 20px;
   display: flex;
@@ -372,12 +380,13 @@ footer {
 }
 .contact-form {
   width: 1400px;
-  padding: 20px 0 20px 0;
+  padding: 30px 0 30px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   background-color: white;
+  border-radius: 20px;
 }
 .form-info {
   width: 500px;
@@ -440,4 +449,29 @@ form {
 .delivery-info ul {
   padding-left: 0;
   list-style: none;
+}
+.filter-btn {
+  width: 100%;
+  height: auto;
+  padding: 5px 0 5px 0;
+  align-self: center;
+  background-color: #40903e;
+  border: none;
+  font-size: 24px;
+  color: white;
+  border-radius: 10px;
+}
+.filter-btn:hover {
+  background-color: #2f5e1f;
+}
+.map {
+  width: 1200px;
+  height: auto;
+  padding: 40px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
 }
